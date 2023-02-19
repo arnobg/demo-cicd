@@ -6,8 +6,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-	with:
-	  fetch-depth: 0
+        with:
+          fetch-depth: 0
       - name: Get IP of runner
         run: curl https://api.ipify.org
       - name: Setup sonarqube instance
