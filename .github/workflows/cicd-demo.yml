@@ -6,5 +6,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+      - name: Get IP of runner
+        run: curl https://api.ipify.org
       - name: Build nodejs app
         run: sudo node index.js 
