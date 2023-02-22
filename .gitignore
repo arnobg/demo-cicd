@@ -1,1 +1,16 @@
 *lock.json
+
+# Local .terraform directories
+**/.terraform/*
+
+# Terraform lockfile
+.terraform.lock.hcl
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+
